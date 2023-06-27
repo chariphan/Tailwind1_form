@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="../dist/output.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <section id="form" class="min-h-screen py-40 bg-gradient-to-r from-[#9F7AEA] to-[#FEE2FE]">
+        <!--container กึ่งกลาง-->
+        <div class="container mx-auto ">
+            <!--กล่องที่จะใส่2ส่วนรูป กับ form-->
+            <div class="flex  w-8/12 bg-white  rounded-xl  mx-auto shadow-lg  overflow-hidden">
+
+                <div class="text-white flex flex-col items-center justify-center p-12 bg-no-repeat bg-cover bg-center w-1/2 bg-[url(https://imageio.forbes.com/specials-images/imageserve/577c129fd7c6ee6a37c42b99/This-is-the-Milky-Way-from-Concordia-Camp--in-Pakistan-s-Karakoram-Range-/960x0.jpg?format=jpg&width=960)]">
+                    <h1 class="text-3xl">Welcome</h1>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aut voluptatem eaque soluta aliquid molestias dolor iure officia tempora minus.</p>
+                    </div> 
+                </div>
+
+                <div class="w-1/2 py-16 px-12">
+                    <h2 class="text-3xl mb-4">Register</h2>
+                    <p class="mb-4">Create youe account. It's free only take minute</p>
+                    <form action="#">
+                        <div class="grid grid-cols-2 gap-5">
+                            <input type="text" placeholder="Firstname" class="border border-gray-400 py-1 px-2 ">
+                            <input type="text" placeholder="Lastname" class="border border-gray-400 py-1 px-2" >
+                        </div>
+
+                        <div class="mt-5">
+                            <input type="email" placeholder="Email" class="border border-gray-400 py-1 px-2 w-full" >
+                        </div>
+
+                        <div class="mt-5">
+                            <input type="password" placeholder="Password" class="border border-gray-400 py-1 px-2 w-full" >
+                        </div>
+
+                        <div class="mt-5">
+                            <input type="password" placeholder="Confirm Password" class="border border-gray-400 py-1 px-2 w-full" >
+                        </div>
+
+                        <div class="mt-5">
+                            <input type="checkbox" class="border border-gray-400">
+                            <span>
+                                I accept the <a href="#" class="text-purple-500 font-semibold">terms of use</a> a policy
+                            </span>
+                        </div>
+
+                        <div class="mt-5">
+                            <button class="w-full bg-purple-500 py-3 text-center text-white rounded-lg">Register now</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+      
+    </section>
+  </body>
+</html>
